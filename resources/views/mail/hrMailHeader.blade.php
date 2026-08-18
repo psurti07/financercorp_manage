@@ -584,7 +584,7 @@
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
                                                                                                     href="tel:{{ config('constant.COMPANY_MOBILE') }}">
-                                                                                                +91-94292-14352
+                                                                                                +91 {{ config('constant.COMPANY_MOBILE') }}
                                                                                                 </a>
                                                                                                 | Email:
                                                                                                 <a href="mailto:{{ config('constant.COMPANY_MOBILE') }}"
